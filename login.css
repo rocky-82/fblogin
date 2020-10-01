@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+background-attachment: fixed;
+}
+
+.form {
+    width: 390px;
+    height: 350px;
+    background: rgb(234, 244, 245);
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    box-shadow: 4px 5px 23px 0px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    padding: 10px;
+
+}
+
+::placeholder {
+    color: teal;
+    font-size: 16px;
+}
+
+.user {
+    width: 365px;
+    height: 50px;
+    margin: auto;
+    border: 1px solid #DDfe;
+    border-radius: 10px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    border-radius: 10px;
+    background: #1877f2;
+    border: none;
+}
+
+.login {
+    border: none;
+    font-weight: 600;
+    background: #1877f2;
+    font-size: 20px;
+    padding: 0px;
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.forget {
+    text-align: center;
+    background: rgb(92, 78, 92);
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.forget a {
+    text-decoration: none;
+}
+
+.forget a:hover {
+    background: white;
+    color: slateblue;
+
+}
+
+.create {
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    border-radius: 6px;
+    text-align: center;
+    padding: 15px;
+    background: #0b6e45;
+    margin-top: 10px;
+    display: block;
+}
+
+.create a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #062349;
+}
+
+.create a:hover {
+    color: wheat;
+    background: steelblue;
+}
